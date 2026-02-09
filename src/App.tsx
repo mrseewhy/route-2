@@ -1,8 +1,12 @@
-import React from 'react'
+import Hero from "./components/Hero"
+import Nav from "./components/Nav"
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Nav />
+      <Hero />
+    </div>
   )
 }
 
