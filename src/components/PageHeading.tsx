@@ -2,7 +2,7 @@ import { useAppContext } from "../context/AppContext"
 
 
 const PageHeading = ({ heading }: { heading: string }) => {
-    const { dark, setdark } = useAppContext();
+    const { dark } = useAppContext();
     return (
         <div
             className={
